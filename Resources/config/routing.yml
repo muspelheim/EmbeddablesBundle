@@ -1,0 +1,3 @@
+muspelheim_embeddables_homepage:
+    path:     /
+    defaults: { _controller: MuspelheimEmbeddablesBundle:Default:index }
