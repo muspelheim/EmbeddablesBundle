@@ -75,8 +75,6 @@ class Color implements JsonSerializable
      *
      * Caching a serialized version of this object is highly reccomended.
      *
-     * @todo There may faster algorithms exists to achive same thing.
-     *
      * @return string
      */
     public function getName()
