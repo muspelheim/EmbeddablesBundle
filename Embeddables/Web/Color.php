@@ -72,9 +72,7 @@ class Color implements JsonSerializable
      * Note: This method is pretty slow even for a single call because
      * iterates all over the color name => [r,g,b] stack below to find
      * nearest color in whole haystack, this means approx. ~3500 iteration.
-     *
-     * Caching a serialized version of this object is highly reccomended.
-     *
+     * 
      * @return string
      */
     public function getName()
